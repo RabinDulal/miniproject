@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    
+    <nav>
+        <a href="home.html">Home</a>
+    <a href="promotion.html">Promotion</a>
+    <a href="about.html">About</a>
+    <a href="feedback.html">Feedback</a>
+    <a href="contact.html">Contact</a>
+    </nav>
+    <style>
+          section {
+            max-width: 800px;
+            margin: 2em auto;
+            padding: 1em;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        /* Promotion Details */
+section#promotion {
+    text-align: center;
+}
+
+section#promotion img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1em;
+}
+
+        
+        header {
+            background-color:gray ;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav {
+            text-align: center;
+            background-color: gray;
+            padding: 0.5em;
+        }
+
+        nav a {
+            color:white;
+            text-decoration: none;
+            padding: 1em;
+            margin: 0 0.5em;
+        }
+    </style>
+   
+
+</head>
+<body>
+     <!-- Rate or Add Comments/Feedback -->
+     <section id="feedback">
+        <h2>Rate or Add Comments/Feedback</h2>
+        <!-- Customer Reviews (Fictional) -->
+        <div>
+            <p><strong>John Doe:</strong> "The Vintage Capture Camera is a work of art. I love the manual controls and the authentic feel."</p>
+        </div>
+        <div>
+            <p><strong>Jane Smith:</strong> "Capturing moments with this camera is like stepping back in time. The results are truly unique."</p>
+        </div>
+        <!--  Feedback Form -->
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" rows="4" required></textarea>
+            <button type="submit">Submit Feedback</button>
+        </form>
+    </section>
+    
+</body>
+</html>
